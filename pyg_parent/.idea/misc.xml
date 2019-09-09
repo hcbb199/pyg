@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_page_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_portal_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_web" />

@@ -3,6 +3,7 @@ package cn.neteast.manager.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import cn.neteast.page.service.ItemPageService;
 import cn.neteast.pojo.TbItem;
 import cn.neteast.pojogroup.Goods;
 import cn.neteast.search.service.ItemSearchService;
@@ -29,6 +30,8 @@ public class GoodsController {
     private GoodsService goodsService;
     @Reference
     private ItemSearchService itemSearchService;
+    @Reference(timeout = 5000)
+    private ItemPageService itemPageService;
 
     /**
      * 返回全部列表
@@ -153,6 +156,15 @@ public class GoodsController {
             e.printStackTrace();
             return new Result(true, "审核失败!");
         }
+    }
+
+    /**
+     * 生成静态页面(测试)
+     * @param goodsId
+     */
+    @RequestMapping("/genHtml")
+    public void genItemHtml(Long goodsId) {
+        itemPageService.genItemHtml(goodsId);
     }
 
 }
