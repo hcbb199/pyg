@@ -16,6 +16,7 @@
         <module name="pyg_dao" />
         <module name="pyg_sellerGoods_service" />
         <module name="pyg_solr_util" />
+        <module name="pyg_page_web" />
         <module name="pyg_manager_web" />
         <module name="pyg_portal_web" />
         <module name="pyg_search_service" />

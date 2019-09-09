@@ -149,9 +149,16 @@ public class GoodsController {
                     itemSearchService.importList(itemList);
                 } else {
                     System.out.println("没有符合条件的SKU列表被添加!");
-                } 
+                }
+                //生成静态页面
+                if (selectIds != null && selectIds.length > 0) {
+                    for (Long goodsId : selectIds) {
+                        itemPageService.genItemHtml(goodsId);
+                    }
+                }
             }
             return new Result(true, "审核成功!");
+
         } catch (Exception e) {
             e.printStackTrace();
             return new Result(true, "审核失败!");
@@ -160,6 +167,7 @@ public class GoodsController {
 
     /**
      * 生成静态页面(测试)
+     *
      * @param goodsId
      */
     @RequestMapping("/genHtml")

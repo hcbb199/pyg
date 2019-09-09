@@ -62,4 +62,8 @@ app.controller("itemController", function ($scope) {
         //读取SKU
         searchSKU();
     };
+    //添加商品到购物车
+    $scope.addToCart= function () {
+        alert("商品数量: " + $scope.num + "SKU的id: " + $scope.sku.id);
+    }
 });

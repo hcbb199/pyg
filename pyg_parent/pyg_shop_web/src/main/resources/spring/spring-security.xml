@@ -67,7 +67,7 @@
 <!--    <beans:bean id="userDetailService" class="cn.neteast.service.UserDetailsServiceImpl"></beans:bean>-->
 
     <!-- 引用dubbox服务, 通过代理创建sellerService的对象 -->
-    <dubbo:application name="pyg-shop-web" />
+    <dubbo:application name="pyg-shop-web"/>
     <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
     <dubbo:reference id="sellerService"  interface="cn.neteast.sellergoods.service.SellerService" >
     </dubbo:reference>

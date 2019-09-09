@@ -24,6 +24,7 @@
         <module>pyg_search_web</module>
         <module>pyg_page_interface</module>
         <module>pyg_page_service</module>
+        <module>pyg_page_web</module>
     </modules>
     <packaging>pom</packaging>
 
