@@ -1,12 +1,17 @@
 package cn.neteast.manager.controller;
 
-import java.util.Arrays;
 import java.util.List;
 
-import cn.neteast.page.service.ItemPageService;
+//import cn.neteast.page.service.ItemPageService;
 import cn.neteast.pojo.TbItem;
 import cn.neteast.pojogroup.Goods;
-import cn.neteast.search.service.ItemSearchService;
+//import cn.neteast.search.service.ItemSearchService;
+import com.alibaba.fastjson.JSON;
+import org.apache.activemq.command.ActiveMQQueue;
+import org.apache.activemq.command.ActiveMQTopic;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +21,11 @@ import cn.neteast.sellergoods.service.GoodsService;
 
 import entity.PageResult;
 import entity.Result;
+
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 
 /**
  * controller
@@ -28,10 +38,22 @@ public class GoodsController {
 
     @Reference
     private GoodsService goodsService;
-    @Reference
-    private ItemSearchService itemSearchService;
-    @Reference(timeout = 5000)
-    private ItemPageService itemPageService;
+    //@Reference
+    //private ItemSearchService itemSearchService;
+    //@Reference(timeout = 5000)
+    //private ItemPageService itemPageService;
+
+    @Autowired
+    private ActiveMQQueue queueTextDestination;
+
+    @Autowired
+    private JmsTemplate jmsTemplate;
+
+    @Autowired
+    private ActiveMQQueue queueSolrDeleteDestination;
+
+    @Autowired
+    private ActiveMQTopic topicPageDestination;
 
     /**
      * 返回全部列表
@@ -109,8 +131,13 @@ public class GoodsController {
     public Result delete(Long[] ids) {
         try {
             goodsService.delete(ids);
-            itemSearchService.deleteByGoodIdList(Arrays.asList(ids));
-
+            //itemSearchService.deleteByGoodIdList(Arrays.asList(ids));
+            jmsTemplate.send(queueSolrDeleteDestination, new MessageCreator() {
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+                    return session.createObjectMessage(ids);
+                }
+            });
             return new Result(true, "删除成功!");
         } catch (Exception e) {
             e.printStackTrace();
@@ -146,14 +173,29 @@ public class GoodsController {
             if ("1".equals(status)) {
                 List<TbItem> itemList = goodsService.findItemListByGoodsIdAndStatus(selectIds, status);
                 if (itemList != null && itemList.size() > 0) {
-                    itemSearchService.importList(itemList);
+                    //itemSearchService.importList(itemList);
+                    //把查出来的SKU列表转为JSON字符串, 使用TextMessage发送出去
+                    String itemListStr = JSON.toJSONString(itemList);
+                    jmsTemplate.send(queueTextDestination, new MessageCreator() {
+                        @Override
+                        public Message createMessage(Session session) throws JMSException {
+                            return session.createTextMessage(itemListStr);
+                        }
+
+                    });
                 } else {
                     System.out.println("没有符合条件的SKU列表被添加!");
                 }
                 //生成静态页面
                 if (selectIds != null && selectIds.length > 0) {
                     for (Long goodsId : selectIds) {
-                        itemPageService.genItemHtml(goodsId);
+                        //itemPageService.genItemHtml(goodsId);
+                        jmsTemplate.send(topicPageDestination, new MessageCreator() {
+                            @Override
+                            public Message createMessage(Session session) throws JMSException {
+                                return session.createTextMessage(goodsId+"");
+                            }
+                        });
                     }
                 }
             }
@@ -169,10 +211,10 @@ public class GoodsController {
      * 生成静态页面(测试)
      *
      * @param goodsId
-     */
+     *//*
     @RequestMapping("/genHtml")
     public void genItemHtml(Long goodsId) {
         itemPageService.genItemHtml(goodsId);
-    }
+    }*/
 
 }

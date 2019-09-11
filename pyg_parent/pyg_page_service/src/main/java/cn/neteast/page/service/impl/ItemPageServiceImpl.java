@@ -9,12 +9,13 @@ import cn.neteast.pojo.TbGoods;
 import cn.neteast.pojo.TbGoodsDesc;
 import cn.neteast.pojo.TbItem;
 import cn.neteast.pojo.TbItemExample;
-import com.alibaba.dubbo.config.annotation.Service;
+//import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.asm.FieldWriter;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 
 import java.io.File;
