@@ -3,6 +3,17 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
+
+    <!--重新指定spring配置文件的路径, 在项目启动后, 加载器配置文件并完成初始化-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring/spring-security.xml</param-value>
+    </context-param>
+
+    <!-- 设置首页 -->
+    <welcome-file-list>
+        <welcome-file>home-index.html</welcome-file>
+    </welcome-file-list>
     <!-- 解决post乱码 -->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -21,6 +32,10 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <!--配置spring核心监听器-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 
     <servlet>
         <servlet-name>springmvc</servlet-name>
@@ -39,4 +54,17 @@
     </servlet-mapping>
 
 
+    <!--配置spring-Security的入口-->
+    <filter>
+        <!--此名称不可改变, 否则找不到对应的类-->
+        <filter-name>springSecurityFilterChain</filter-name>
+        <!--DelegatingFilterProxy是一个过滤器代理类, 会在拦截到请求后自动找到springSecurityFilterChain类做处理-->
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
 </web-app>
+
