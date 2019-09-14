@@ -29,7 +29,6 @@ public class ItemSearchListener implements MessageListener {
             String text = textMessage.getText();
             List<TbItem> itemList = JSON.parseArray(text, TbItem.class);
             for (TbItem item : itemList) {
-                System.out.println(item.getId() + "--" + item.getTitle());
                 //将spec字段中的json字符串转换为map
                 Map specMap = JSON.parseObject(item.getSpec());
                 //给带注解的字段赋值

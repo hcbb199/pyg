@@ -24,7 +24,7 @@
     </bean>
 
     <!--这个是队列目的地, 点对点的, 文本信息, 用于在solr中添加记录-->
-    <bean id="queueTextDestination" class="org.apache.activemq.command.ActiveMQQueue">
+    <bean id="queueSolrDestination" class="org.apache.activemq.command.ActiveMQQueue">
         <constructor-arg value="pyg_queue_solr"></constructor-arg>
     </bean>
 
@@ -39,5 +39,8 @@
         <constructor-arg value="pyg_topic_page"/>
     </bean>
 
-
+    <!--这个是订阅模式, 文本信息, 用于删除静态详情页面-->
+    <bean id="topicPageDeleteDestination" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="pyg_topic_page_delete"/>
+    </bean>
 </beans>

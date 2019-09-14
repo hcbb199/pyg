@@ -88,4 +88,14 @@ public class ItemPageServiceImpl implements ItemPageService {
             return false;
         }
     }
+
+    /**
+     * 删除商品详情页
+     * @param goodsId
+     * @return
+     */
+    @Override
+    public Boolean deleteItemHtml(Long goodsId) {
+        return new File(pageDir + goodsId + ".html").delete();
+    }
 }

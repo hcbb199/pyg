@@ -42,18 +42,20 @@ public class GoodsController {
     //private ItemSearchService itemSearchService;
     //@Reference(timeout = 5000)
     //private ItemPageService itemPageService;
-
-    @Autowired
-    private ActiveMQQueue queueTextDestination;
-
     @Autowired
     private JmsTemplate jmsTemplate;
+
+    @Autowired
+    private ActiveMQQueue queueSolrDestination;
 
     @Autowired
     private ActiveMQQueue queueSolrDeleteDestination;
 
     @Autowired
     private ActiveMQTopic topicPageDestination;
+
+    @Autowired
+    private ActiveMQTopic topicPageDeleteDestination;
 
     /**
      * 返回全部列表
@@ -132,7 +134,15 @@ public class GoodsController {
         try {
             goodsService.delete(ids);
             //itemSearchService.deleteByGoodIdList(Arrays.asList(ids));
+            //删除solr索引库中的SKU列表
             jmsTemplate.send(queueSolrDeleteDestination, new MessageCreator() {
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+                    return session.createObjectMessage(ids);
+                }
+            });
+            //删除静态页面
+            jmsTemplate.send(topicPageDeleteDestination, new MessageCreator() {
                 @Override
                 public Message createMessage(Session session) throws JMSException {
                     return session.createObjectMessage(ids);
@@ -174,29 +184,25 @@ public class GoodsController {
                 List<TbItem> itemList = goodsService.findItemListByGoodsIdAndStatus(selectIds, status);
                 if (itemList != null && itemList.size() > 0) {
                     //itemSearchService.importList(itemList);
-                    //把查出来的SKU列表转为JSON字符串, 使用TextMessage发送出去
+                    //添加SKU列表到solr索引库, 把查出来的SKU列表转为JSON字符串, 使用TextMessage发送出去
                     String itemListStr = JSON.toJSONString(itemList);
-                    jmsTemplate.send(queueTextDestination, new MessageCreator() {
+                    jmsTemplate.send(queueSolrDestination, new MessageCreator() {
                         @Override
                         public Message createMessage(Session session) throws JMSException {
                             return session.createTextMessage(itemListStr);
                         }
-
+                    });
+                    //生成静态页面
+                    //itemPageService.genItemHtml(goodsId);
+                    jmsTemplate.send(topicPageDestination, new MessageCreator() {
+                        @Override
+                        public Message createMessage(Session session) throws JMSException {
+                            return session.createObjectMessage(selectIds);
+                        }
                     });
                 } else {
                     System.out.println("没有符合条件的SKU列表被添加!");
-                }
-                //生成静态页面
-                if (selectIds != null && selectIds.length > 0) {
-                    for (Long goodsId : selectIds) {
-                        //itemPageService.genItemHtml(goodsId);
-                        jmsTemplate.send(topicPageDestination, new MessageCreator() {
-                            @Override
-                            public Message createMessage(Session session) throws JMSException {
-                                return session.createTextMessage(goodsId+"");
-                            }
-                        });
-                    }
+                    System.out.println("没有符合条件的静态页面被生成!");
                 }
             }
             return new Result(true, "审核成功!");
