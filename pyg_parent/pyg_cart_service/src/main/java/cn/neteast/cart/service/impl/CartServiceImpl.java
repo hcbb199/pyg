@@ -7,6 +7,7 @@ import cn.neteast.pojo.TbOrderItem;
 import cn.neteast.pojogroup.Cart;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -19,6 +20,8 @@ import java.util.List;
 public class CartServiceImpl implements CartService {
     @Autowired
     private TbItemMapper itemMapper;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     /**
      * 添加商品到购物车
@@ -66,6 +69,7 @@ public class CartServiceImpl implements CartService {
                 orderItem = createOrderItem(item, num);
                 cart.getOrderItemList().add(orderItem);
 
+            } else {
                 //5.2. 如果有，在原购物车明细上添加数量，更改金额
                 orderItem.setNum(orderItem.getNum() + num);
                 orderItem.setTotalFee(new BigDecimal(orderItem.getNum() * orderItem.getPrice().doubleValue()));
@@ -81,6 +85,59 @@ public class CartServiceImpl implements CartService {
             }
         }
         return cartList;
+    }
+
+    /**
+     * 从redis中查询购物车列表(当用户登录后)
+     *
+     * @param username
+     * @return
+     */
+    @Override
+    public List<Cart> getCartListFromRedis(String username) {
+        System.out.println("从redis中查询购物车列表...");
+        List<Cart> cartList = (List<Cart>) redisTemplate.boundHashOps("cartList").get(username);
+        if (cartList == null) {
+            cartList = new ArrayList<Cart>();
+        }
+        return cartList;
+    }
+
+    /**
+     * 将购物车列表存入redis中(当用户登录后)
+     *
+     * @param cartList
+     * @param username
+     */
+    @Override
+    public void saveCartListToRedis(List<Cart> cartList, String username) {
+        System.out.println("将购物车列表存入到redis中...");
+        redisTemplate.boundHashOps("cartList").put(username, cartList);
+    }
+
+    /**
+     * 当用户登录后, 合并购物车列表
+     *
+     * @param cartList_redis
+     * @param cartList_cookie
+     * @return
+     */
+    @Override
+    public List<Cart> margeCartList(List<Cart> cartList_redis, List<Cart> cartList_cookie) {
+        /*
+            将两个集合的其中之一拆出成SKU列表, 对该SKU列表进行遍历, 得到每一个SKU对象;
+            将得到的对象添加到另一个集合中, 实现两个集合的去重合并
+         */
+        if (cartList_cookie != null && cartList_cookie.size() > 0) {
+            for (Cart cart : cartList_cookie) {
+                if (cart.getOrderItemList() != null && cart.getOrderItemList().size() > 0) {
+                    for (TbOrderItem OrderItem : cart.getOrderItemList()) {
+                        cartList_redis = addGoodsToCartList(cartList_redis, OrderItem.getItemId(), OrderItem.getNum());
+                    }
+                }
+            }
+        }
+        return cartList_redis;
     }
 
     /**
