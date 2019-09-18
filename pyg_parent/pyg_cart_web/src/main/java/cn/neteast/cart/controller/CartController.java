@@ -1,4 +1,4 @@
-package cn.neteast.user.controller;
+package cn.neteast.cart.controller;
 
 import cn.neteast.CookieUtil;
 import cn.neteast.cart.service.CartService;
@@ -69,6 +69,9 @@ public class CartController {
      */
     @RequestMapping("/addGoodsToCartList")
     public Result addGoodsToCartList(Long itemId, Integer num) {
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:9105");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         System.out.println("当前登录用户是: " + username);
         //获取购物车列表
