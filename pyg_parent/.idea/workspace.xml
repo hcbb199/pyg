@@ -7,18 +7,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyg_cart_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/CartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/service/UserDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/controller/cartController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/controller/cartController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/service/cartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/service/cartService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_page_service/src/main/webapp/WEB-INF/ftl/item.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_page_service/src/main/webapp/WEB-INF/ftl/item.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_page_web/src/main/webapp/149187842867960.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_page_web/src/main/webapp/149187842867960.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_page_web/src/main/webapp/js/controller/itemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_page_web/src/main/webapp/js/controller/itemController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/paysuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_order_interface/src/main/java/cn/neteast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_order_interface/src/main/java/cn/neteast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_order_service/src/main/java/cn/neteast/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pyg_order_service/src/main/java/cn/neteast/order/service/impl/OrderServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +44,11 @@
     <ignored path="$PROJECT_DIR$/pyg_cart_web/target/" />
     <ignored path="$PROJECT_DIR$/pyg_order_interface/target/" />
     <ignored path="$PROJECT_DIR$/pyg_order_service/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_pay_interface/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_pay_service/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_seckill_interface/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_seckill_service/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_seckill_web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,42 +75,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-service.xml">
+        <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-tx.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyg_pojo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pyg_common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="555">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/GoodsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="122" column="31" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart/controller/CartController.java">
+        <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_interface/src/main/java/cn/neteast/sellergoods/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="675">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyg_user_service/src/main/java/cn/neteast/user/service/impl/AddressServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="137" column="20" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyg_pay_interface/src/main/java/cn/neteast/pay/service/WeChatPayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -148,30 +159,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_user_service/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_web/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/resources/config/application.properties" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_interface/src/main/java/cn/neteast/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/java/cn/neteast/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pyg_user_service/src/main/resources/spring/applicationContext-activemq.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_service/src/main/resources/properties/sms.properties" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/controller/userController.js" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/service/userService.js" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/register.html" />
-        <option value="$PROJECT_DIR$/pyg_user_service/src/main/java/cn/neteast/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/java/cn/neteast/user/service/UserDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/java/cn/neteast/user/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/service/loginService.js" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/controller/indexController.js" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/home-index.html" />
-        <option value="$PROJECT_DIR$/pyg_portal_web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pyg_user_web/src/main/resources/spring/spring-security.xml" />
-        <option value="$PROJECT_DIR$/pyg_cart_interface/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_cart_service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/pyg_common/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_pojo/src/main/java/cn/neteast/pojogroup/Cart.java" />
         <option value="$PROJECT_DIR$/pyg_cart_service/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/UserController.java" />
@@ -191,7 +179,6 @@
         <option value="$PROJECT_DIR$/pyg_order_service/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_cart_web/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/pyg_order_service/src/main/java/cn/neteast/order/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/AddressController.java" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/spring-security.xml" />
@@ -199,6 +186,30 @@
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/service/cartService.js" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/getOrderInfo.html" />
         <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/controller/cartController.js" />
+        <option value="$PROJECT_DIR$/pyg_pay_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_pay_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_common/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_pay_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/pyg_common/src/main/resources/properties/weixinpay.properties" />
+        <option value="$PROJECT_DIR$/pyg_pay_interface/src/main/java/cn/neteast/pay/service/WeChatPayService.java" />
+        <option value="$PROJECT_DIR$/pyg_pay_service/src/main/java/cn/neteast/pay/service/impl/WeChatPayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/service/payService.js" />
+        <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/controller/payController.js" />
+        <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/pay.html" />
+        <option value="$PROJECT_DIR$/pyg_cart_web/src/main/webapp/paysuccess.html" />
+        <option value="$PROJECT_DIR$/pyg_order_interface/src/main/java/cn/neteast/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/pyg_order_service/src/main/java/cn/neteast/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_seckill_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_seckill_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_seckill_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/pyg_seckill_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_seckill_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pyg_seckill_web/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/cn/neteast/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/shoplogin.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -221,7 +232,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="147" />
+    <option name="y" value="-4" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
@@ -234,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -246,12 +257,1099 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_cart_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="qrious" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_order_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pay_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="pojogroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_seckill_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_sellerGoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="neteast" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +1364,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyg_seckill_web/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -276,26 +1374,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_cart_web\src\main\java\cn\neteast\cart" />
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_cart_web\src\main\webapp" />
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_common\src\main\java\cn\neteast" />
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_cart_web\src\main\java\cn\neteast\user\controller" />
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_order_service\src\main\java\cn\neteast\order\service\impl" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.neteast.cart.service" />
-      <recent name="cn.neteast.user.service" />
-      <recent name="cn.neteast.sms" />
-      <recent name="cn.neteast.manager.controller" />
-      <recent name="cn.neteast.shop.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_cart_web\src\main\webapp\plugins\qrious" />
       <recent name="E:\IdeaProjects\pyg_parent\pyg_page_web\src\main" />
       <recent name="E:\IdeaProjects\pyg_parent\pyg_page_web\src\main\webapp" />
       <recent name="E:\IdeaProjects\pyg_parent\pyg_search_web\src\main\webapp\js\service" />
       <recent name="E:\IdeaProjects\pyg_parent\pyg_search_web\src\main\webapp\js" />
-      <recent name="E:\IdeaProjects\pyg_parent\pyg_portal_web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.neteast.seckill.service" />
+      <recent name="cn.neteast.cart.service" />
+      <recent name="cn.neteast.user.service" />
+      <recent name="cn.neteast.sms" />
+      <recent name="cn.neteast.manager.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_seckill_web\src\main\resources" />
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_seckill_web\src\main\webapp" />
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_seckill_service\src\main\resources" />
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_seckill_service\src\main\webapp" />
+      <recent name="E:\IdeaProjects\pyg_parent\pyg_cart_web\src\main\webapp\plugins\qrious" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,7 +1408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.pyg_cart_web [tomcat7:run]">
+  <component name="RunManager" selected="Maven.pyg_parent [install]">
     <configuration name="ImportItemList.deleteList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pyg_solr_util" />
       <extension name="coverage">
@@ -584,6 +1682,31 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="pyg_pay_service [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/pyg_pay_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="pyg_portal_web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -785,6 +1908,7 @@
       <item itemvalue="Maven.pyg_user_service [tomcat7:run]" />
       <item itemvalue="Maven.pyg_cart_service [tomcat7:run]" />
       <item itemvalue="Maven.pyg_order_service [tomcat7:run]" />
+      <item itemvalue="Maven.pyg_pay_service [tomcat7:run]" />
       <item itemvalue="Maven.pyg_manager_web [tomcat7:run]" />
       <item itemvalue="Maven.pyg_shop_web [tomcat7:run]" />
       <item itemvalue="Maven.pyg_portal_web [tomcat7:run]" />
@@ -869,6 +1993,10 @@
       <workItem from="1568717165880" duration="1443000" />
       <workItem from="1568725344620" duration="56000" />
       <workItem from="1568726791742" duration="860000" />
+      <workItem from="1568776936951" duration="20168000" />
+      <workItem from="1568851392770" duration="1389000" />
+      <workItem from="1568852805419" duration="16961000" />
+      <workItem from="1569055489896" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="初次上传">
       <created>1567840457743</created>
@@ -1011,7 +2139,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="534705000" />
+    <option name="totallyTimeSpent" value="574815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,7 +2154,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.23691276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.2885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.50120485" side_tool="true" weight="0.2409396" />
       <window_info id="Designer" order="3" />
@@ -1034,7 +2162,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" weight="0.35470086" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" weight="0.4059829" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42492917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1066,94 +2194,309 @@
     <option name="LAST_COMMIT_MESSAGE" value="初次上传" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyg_user_service/src/main/java/cn/neteast/user/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/paysuccess.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/SpecificationOptionController.java">
+    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/getOrderInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#em#1;n#span#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="665">
+          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_page_service/src/main/webapp/WEB-INF/ftl/item.ftl">
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="208" column="68" lean-forward="true" selection-start-line="208" selection-start-column="68" selection-end-line="208" selection-end-column="68" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/src/main/java/cn/neteast/seckill/service/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_seckill_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_cart_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="152" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="152" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_cart_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="122" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="122" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/resources/properties/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="90" column="41" lean-forward="true" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_page_web/src/main/webapp/149187842867960.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="309" column="72" selection-start-line="309" selection-start-column="72" selection-end-line="309" selection-end-column="72" />
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/brand.html">
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_service/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/seller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/goods.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="177" column="32" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_pay_service/src/main/java/cn/neteast/pay/service/impl/WeChatPayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/cn/neteast/pojogroup/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="1155">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/cn/neteast/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="135">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_page_web/src/main/webapp/js/controller/itemController.js">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/cn/neteast/manager/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="1380">
+          <caret line="122" column="31" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_page_service/src/main/java/cn/neteast/page/service/impl/ItemPageServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_interface/src/main/java/cn/neteast/sellergoods/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="675">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_user_service/src/main/java/cn/neteast/user/service/impl/AddressServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="1755">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_pay_interface/src/main/java/cn/neteast/pay/service/WeChatPayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/shoplogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/java/cn/neteast/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellerGoods_service/src/main/java/cn/neteast/sellergoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1161,242 +2504,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_user_interface/src/main/java/cn/neteast/user/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="122" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="122" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-activemq.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_interface/src/main/java/cn/neteast/order/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/CartController.java" />
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/java/cn/neteast/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/OrderController.java" />
-    <entry file="file://$PROJECT_DIR$/pyg_user_web/src/main/java/cn/neteast/user/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/user/controller/AddressController.java" />
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_service/src/main/java/cn/neteast/cart/service/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/getOrderInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3765">
-          <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/java/cn/neteast/order/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="36">
+          <caret line="238" column="13" selection-start-line="238" selection-start-column="13" selection-end-line="238" selection-end-column="13" />
           <folding>
-            <element signature="e#3563#3564#0" expanded="true" />
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3740#3741#0" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="e#4949#4950#0" expanded="true" />
+            <element signature="e#5073#5074#0" expanded="true" />
+            <element signature="e#5130#5131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/java/cn/neteast/mapper/TbAddressMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/config/fdfs_client.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/cn/neteast/pojo/TbOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/service/cartService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/java/cn/neteast/cart/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/cn/neteast/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_cart_web/src/main/webapp/js/controller/cartController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_order_service/src/main/resources/spring/applicationContext-tx.xml">
+    <entry file="file://$PROJECT_DIR$/pyg_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="555">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>

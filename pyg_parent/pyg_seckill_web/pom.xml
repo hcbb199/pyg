@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>pyg_cart_web</artifactId>
+    <artifactId>pyg_seckill_web</artifactId>
     <packaging>war</packaging>
 
     <dependencies>
@@ -114,7 +114,7 @@
         </dependency>
         <dependency>
             <groupId>cn.neteast</groupId>
-            <artifactId>pyg_cart_interface</artifactId>
+            <artifactId>pyg_seckill_interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -144,7 +144,7 @@
                 <version>2.2</version>
                 <configuration>
                     <!-- 指定端口 -->
-                    <port>9107</port>
+                    <port>9109</port>
                     <!-- 请求路径 -->
                     <path>/</path>
                 </configuration>

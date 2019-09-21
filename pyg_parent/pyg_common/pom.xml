@@ -50,6 +50,11 @@
             <artifactId>servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!--支持HTTP协议的客户端编程工具包, 模拟浏览器的行为-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
 
     </dependencies>
 
