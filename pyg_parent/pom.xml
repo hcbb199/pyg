@@ -38,6 +38,7 @@
         <module>pyg_seckill_interface</module>
         <module>pyg_seckill_service</module>
         <module>pyg_seckill_web</module>
+        <module>pyg_task_service</module>
     </modules>
     <packaging>pom</packaging>
 

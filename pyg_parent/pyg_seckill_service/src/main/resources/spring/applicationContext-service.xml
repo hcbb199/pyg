@@ -13,6 +13,13 @@
 	<dubbo:application name="pyg-seckill-service"/>
     <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
     <dubbo:annotation package="cn.neteast.seckill.service.impl" />
-   
+
+	<!-- ID生成器 -->
+	<bean id="idWorker" class="cn.neteast.IdWorker">
+		<!-- 进程ID -->
+		<constructor-arg index="0" value="0"></constructor-arg>
+		<!-- 数据中心ID -->
+		<constructor-arg index="1" value="0"></constructor-arg>
+	</bean>
 
 </beans>

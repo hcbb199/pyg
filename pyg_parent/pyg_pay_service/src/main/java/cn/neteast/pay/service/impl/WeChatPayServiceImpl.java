@@ -65,6 +65,7 @@ public class WeChatPayServiceImpl implements WeChatPayService {
         }
         return map;
     }
+
     /**
      * 查询支付状态
      *
@@ -78,19 +79,51 @@ public class WeChatPayServiceImpl implements WeChatPayService {
         param.put("mch_id", partner);//商户号
         param.put("out_trade_no", out_trade_no);//订单号
         param.put("nonce_str", WXPayUtil.generateNonceStr());//随机字符串
-        String url="https://api.mch.weixin.qq.com/pay/orderquery";
+        String url = "https://api.mch.weixin.qq.com/pay/orderquery";
         try {
             String xmlParam = WXPayUtil.generateSignedXml(param, partnerkey);
-            HttpClient client=new HttpClient(url);
-            client.setHttps(true);client.setXmlParam(xmlParam);
+            HttpClient client = new HttpClient(url);
+            client.setHttps(true);
+            client.setXmlParam(xmlParam);
             client.post();
             String result = client.getContent();
             Map<String, String> map = WXPayUtil.xmlToMap(result);
-            System.out.println("结果集合: " + map);
+            System.out.println("订单支付的结果集合: " + map);
             return map;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
     }
+
+    /**
+     * 关闭支付(此处仅查询支付状态)
+     *
+     * @param out_trade_no
+     * @return
+     */
+    @Override
+    public Map closePay(String out_trade_no) {
+        Map param = new HashMap();
+        param.put("appid", appid);//公众账号ID
+        param.put("mch_id", partner);//商户号
+        param.put("out_trade_no", out_trade_no);//订单号
+        param.put("nonce_str", WXPayUtil.generateNonceStr());//随机字符串
+        String url = "https://api.mch.weixin.qq.com/pay/closeorder";
+        try {
+            String xmlParam = WXPayUtil.generateSignedXml(param, partnerkey);
+            HttpClient client = new HttpClient(url);
+            client.setHttps(true);
+            client.setXmlParam(xmlParam);
+            client.post();
+            String result = client.getContent();
+            Map<String, String> map = WXPayUtil.xmlToMap(result);
+            System.out.println(map);
+            return map;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
 }

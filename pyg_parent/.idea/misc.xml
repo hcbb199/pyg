@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/pyg_seckill_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_sellerGoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_task_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_user_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_user_web" />
     <type id="Spring" />
