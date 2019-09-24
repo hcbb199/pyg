@@ -11,7 +11,7 @@
 
     <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
 	<dubbo:application name="pyg-sellerGoods-service"/>
-    <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
+<!--    <dubbo:registry address="zookeeper://192.168.25.128:2181"/>-->
     <dubbo:annotation package="cn.neteast.sellergoods.service.impl" />
    
 

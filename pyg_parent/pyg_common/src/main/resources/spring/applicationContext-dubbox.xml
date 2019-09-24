@@ -8,18 +8,8 @@
         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-
-    <dubbo:protocol name="dubbo" port="20888"></dubbo:protocol>
-    <dubbo:application name="pyg-order-service"/>
-<!--    <dubbo:registry address="zookeeper://192.168.25.128:2181"/>-->
-    <dubbo:annotation package="cn.neteast.order.service.impl"/>
-
-    <!-- ID生成器 -->
-    <bean id="idWorker" class="cn.neteast.IdWorker">
-        <!-- 进程ID -->
-        <constructor-arg index="0" value="0"></constructor-arg>
-        <!-- 数据中心ID -->
-        <constructor-arg index="1" value="0"></constructor-arg>
-    </bean>
+    <!--加载redis, dubbox及weixinpay配置文件-->
+    <context:property-placeholder location="classpath:properties/*.properties"></context:property-placeholder>
+    <dubbo:registry protocol="zookeeper" address="${address}"/>
 
 </beans>
